@@ -20,7 +20,18 @@ const ignorePatterns = [
   "**/.DS_Store",
 ];
 
-const essentialPaths = ["templates/**", "README.md", "LICENSE", "i18n/**", "*.yaml", "*.yml"];
+const essentialPaths = [
+  "templates/**",
+  "README.md",
+  "LICENSE",
+  "i18n/**",
+  "*.yaml",
+  "*.yml",
+  "screenshot.png",
+  "screenshot.jpeg",
+  "screenshot.jpg",
+  "screenshot.webp",
+];
 
 program
   .version(packageJson.version)

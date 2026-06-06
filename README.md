@@ -30,7 +30,7 @@ npm install @halo-dev/theme-package-cli
 Run the command in your Halo theme project root directory:
 
 ```bash
-# Only package essential files (templates, README.md, *.yaml/*.yml, i18n, LICENSE)
+# Only package essential files (templates, README.md, *.yaml/*.yml, i18n, LICENSE, screenshot.*)
 theme-package
 
 # Package all files except common unnecessary files and directories
@@ -47,6 +47,7 @@ theme-package -a
   - All .yaml and .yml files
   - i18n directory
   - LICENSE file
+  - Root-level `screenshot.png`, `screenshot.jpeg`, `screenshot.jpg`, or `screenshot.webp`
 
 - When using the `--all` parameter, packages all files in the project while excluding some common unnecessary files and directories:
   - dist directory
